@@ -1,0 +1,39 @@
+@media(max-width: 767px) {
+    .button_sect_3.mt-4 button {
+        padding: 10px 20px;
+    }
+
+    .button_sect_2.mt-4 button {
+        padding: 10px 40px;
+    }
+
+    .button_sect.mt-4 button {
+        padding: 10px 50px;
+    }
+
+    .gallary_content {
+        margin-left: 0px;
+    }
+
+    .gallery {
+        border: none;
+    }
+
+    .text_content {
+        padding: 10px 10px;
+    }
+    
+    .gallery a {
+        height: 80px;
+        width: 130px;
+        margin: 5px 2px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .bg_second_color.my-5 {
+        padding: 30px 15px;
+        background: #fff;
+    }
+
+
+}
