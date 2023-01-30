@@ -1,0 +1,186 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background: rgba(218, 218, 218, 0.471);
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    color: #606061;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+.text_content h2 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.text_content h5 {
+    font-size: 16px;
+    color: #ee5555;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0px 5px;
+    border-left: 2px solid #60606155;
+}
+
+.gallary_content {
+    margin-left: 47px;
+}
+
+.gallery a {
+    height: 200px;
+    width: 300px;
+    margin: 5px 2px;
+    border-radius: 2px;
+    overflow: hidden;
+
+}
+
+.gallery a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery a img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg_second_color.my-5 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 30px;
+    background: #fff;
+
+}
+
+.text_content {
+    padding: 10px 30px;
+}
+/*-------------------------- all button css-------------------------- */
+.button_sect.mt-4 button {
+    outline: none;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 50px;
+    background-color: rgb(72, 123, 5);
+}
+
+.button_sect_2.mt-4 button {
+    outline: none;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 50px;
+    background-color: rgb(255, 90, 95);
+}
+
+.button_sect.mt-4 button a {
+    color: #fff;
+}
+
+.button_sect_2.mt-4 button a {
+    color: #fff;
+}
+
+.button_sect_3.mt-4 button {
+    outline: none;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: rgb(72, 123, 5);
+}
+
+.button_sect_3.mt-4 button {
+    outline: none;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: rgb(0, 53, 128);
+}
+
+.button_sect_3.mt-4 button a {
+    color: #fff;
+}
+
+.button_sect_3.mt-4 button a {
+    color: #fff;
+}
+
+.button_sect.mt-4 button:hover {
+    transform: translateX(15px);
+}
+
+.button_sect_2.mt-4 button:hover {
+    transform: translateX(15px);
+}
+
+.button_sect_3.mt-4 button:hover {
+    transform: translateX(15px);
+}
+/*-------------------------- all button css end-------------------------- */
+.text_content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #606061;
+}
+
+.profile a {
+    padding: 10px 10px;
+    background: lightblue;
+    border-radius: 3px;
+    margin: 50px 20px;
+}
+
+img.img-fluid.profile {
+    border-radius: 30px;
+}
+
+
+.button_profile.mt-4 button {
+    border: none;
+    padding: 5px 10px;
+    background: lightblue;
+    border-radius: 3px;
+}
+
+.gallery_text_content h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #606061d7;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 97%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}

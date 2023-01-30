@@ -4,211 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reetscheune Krüzen - Apartment under thatch</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha512-NZ19NrT58XPK5sXqXnnvtf9T5kLXSzGQlVZL9taZWeTBtXoN3xIfTdxbkQh6QSoJfJgpojRqMfhyqBAAEeiXcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js" integrity="sha512-Pv/SmxhkTB6tWGQWDa6gHgJpfBdIpyUy59QkbshS1948GRmj6WgZz18PaDMOqaEyKLRAvgil7sx/WACNGE4Txw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
+    <!-- lightbox css -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
 
-    <style>
 
-     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
-
-        *{
-            margin:0;
-            padding:0;
-            box-sizing: border-box;
-            transition: all .2s linear;
-            font-family: 'Work Sans', sans-serif;
-        }
-        body{
-            background: rgba(218, 218, 218, 0.471);
-            font-family: 'Work Sans', sans-serif;
-        }
-        p{
-           color:#606061;
-           font-size: 16px;
-           line-height: 25.6px;
-        }
-        .text_content h2 {
-        font-size: 48px;
-        line-height: 57.6px;
-        font-weight: 600;
-        color:#000000;
-        }
-        .text_content h5 {
-        font-size:16px;
-        color:#ee5555;
-        }
-        .gallery{
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            width: 95%;
-            margin: 0 auto;
-            padding:0px 5px;
-            border-left: 2px solid #60606155;
-        }
-        .gallary_content{
-            margin-left:47px;
-        }
-        .gallery a{
-            height: 200px;
-            width: 300px;
-            margin: 5px 2px;
-            border-radius: 5px;
-            overflow:hidden;
-            box-shadow: 0 3px 5px #000;
-            
-        }
-        .gallery a img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-        .gallery a img:hover{
-            transform: scale(1.1);
-        }
-        a{
-            text-decoration: none;
-        }
-        .bg_second_color.my-5 {
-             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-             padding: 30px 30px;
-             background: #fff;
-             
-      }
-      .text_content {
-            padding: 10px 30px;
-       }
-       .button_sect.mt-4 button {
-            outline: none;
-            border: none;
-            padding: 15px 70px;
-            border-radius: 50px;
-           background-color: rgb(72,123,5);
-       }
-       .button_sect_2.mt-4 button {
-            outline: none;
-            border: none;
-            padding: 15px 60px;
-            border-radius: 50px;
-            background-color: rgb(255,90,95);
-       }
-       .button_sect.mt-4 button a {
-        color:#fff;
-       }
-       .button_sect_2.mt-4 button a {
-        color:#fff;
-       }
-       .button_sect_3.mt-4 button {
-            outline: none;
-            border: none;
-            padding: 15px 40px;
-            border-radius: 50px;
-           background-color: rgb(72,123,5);
-       }
-       .button_sect_3.mt-4 button {
-            outline: none;
-            border: none;
-            padding: 15px 40px;
-            border-radius: 50px;
-            background-color: rgb(0,53,128);
-       }
-       .button_sect_3.mt-4 button a {
-        color:#fff;
-       }
-       .button_sect_3.mt-4 button a {
-        color:#fff;
-       }
-       .button_sect.mt-4 button:hover{
-           transform: translateX(15px);
-       }
-       .button_sect_2.mt-4 button:hover{
-           transform: translateX(15px);
-       }
-       .button_sect_3.mt-4 button:hover{
-           transform: translateX(15px);
-       }
-        .text_content h4 {
-           font-size: 18px;
-            font-weight: 600;
-           color: #606061;
-         }
-
-         .profile a {
-          padding: 10px 10px;
-         background: lightblue;
-         border-radius: 3px;
-         margin: 50px 20px;
-           }
-           img.img-fluid.profile {
-            border-radius: 30px;
-              }     
-              
-              
-              .button_profile.mt-4 button {
-                  border: none;
-                   padding: 5px 10px;
-                 background: lightblue;
-                   border-radius: 3px;
-             }   
-           
-             .gallery_text_content h4 {
-    font-size: 25px;
-    font-weight: 700;
-    color: #606061d7;
-} 
-
-       .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        width: 97%;
-        padding-right: var(--bs-gutter-x,.75rem);
-        padding-left: var(--bs-gutter-x,.75rem);
-        margin-right: auto;
-        margin-left: auto;
-       }
-    
-         
-
-       @media(max-width: 767px){
-        .button_sect_3.mt-4 button {
-            padding: 10px 20px;
-       }
-        .button_sect_2.mt-4 button {
-            padding: 10px 40px;
-       }
-        .button_sect.mt-4 button {
-            padding: 10px 50px;
-       }
-       .gallary_content{
-            margin-left:0px;
-        }
-        .gallery{
-            border:none;
-        }
-        .text_content {
-         padding: 10px 10px;
-        }
-        .gallery a {
-  height: 80px;
-  width: 130px;
-  margin: 5px 2px;
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0 3px 5px #000;
-}
-
-     }
-
-
-
-    </style>
-
-
+    <!-- main css -->
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
 
 
 </head>
@@ -222,13 +29,13 @@
                             <h5>BOOK TODAY!</h5>
                             <h2>Thatched Barn Kruzen</h2>
                             <p>Dorfstrasse 6a, 21483 Kruzen, Germany</p>
-                            <img class="img-fluid my-4" src="assets/img/_MG_3818.jpg" alt="">
+                            <img class="img-fluid my-4" src="assets/img/_MG_3818.jpg" alt="img">
                             <p class="mb-5">The barn was built in 1890 and originally served as a dwelling for cattle. In the 1990s the barn was thatched and converted into an old-style house. Today it offers us as a family enough space to live and work.</p>
                             <h4>Apartment under thatch</h4>
                             <p>For 1-2 people, 30m²</p>
                             <p class="mb-5">Sleeping in an alcove (alcove bed) is a unique experience that you will find in our holiday apartment. Our stylishly furnished holiday apartment should serve as a retreat for you on your journey. It offers everything you need for a short stay.</p>
                             <div class="button_sect mt-4">
-                                <button><a target="_blank" href="https://booking.smoobu.com/reetscheune">Book directly with us →</a></button>
+                                <button> <a target="_blank" href="https://booking.smoobu.com/reetscheune">Book directly with us →</a> </button>
                             </div>
                             <div class="button_sect_2 mt-4">
                                 <button><a target="_blank" href="https://www.airbnb.de/rooms/639817955561561645?source_impression_id=p3_1675018275_lt6EEQJ39dOObqh2">Reetscheune bei Airbnb →</a></button>
@@ -237,7 +44,7 @@
                                 <button><a target="_blank" href="https://www.booking.com/hotel/de/schlafen-unter-reet-unweit-von-lauenburg-elbe.de.html">Reetscheune at Booking.com →</a></button>
                             </div>
                             <h4>Your host</h4>
-                            <img class="img-fluid profile mt-3" src="assets/img/profile.webp" alt="">
+                            <img class="img-fluid profile mt-3" src="assets/img/profile.webp" alt="img">
                             <div class="button_profile mt-4">
                                 <button><a href="mailto:fewo@reetscheune.de">Email →</a></button>
                             </div>
@@ -249,47 +56,47 @@
                         <div class="gallery">
     
                             <a href="assets/img/IMG_1123.jpg">
-                                <img src="assets/img/IMG_1123.jpg" alt="">
+                                <img src="assets/img/IMG_1123.jpg" alt="img">
                             </a>
                         
                             <a href="assets/img/IMG_1124.jpg">
-                                <img src="assets/img/IMG_1124.jpg" alt="">
+                                <img src="assets/img/IMG_1124.jpg" alt="img">
                             </a>
                         
                             <a href="assets/img/IMG_1125.jpg">
-                                <img src="assets/img/IMG_1125.jpg" alt="">
+                                <img src="assets/img/IMG_1125.jpg" alt="img">
                             </a>
                         
                             <a href="assets/img/IMG_1126.jpg">
-                                <img src="assets/img/IMG_1126.jpg" alt="">
+                                <img src="assets/img/IMG_1126.jpg" alt="img">
                             </a>
                             <a href="assets/img/IMG_1128.jpg">
-                                <img src="assets/img/IMG_1128.jpg" alt="">
+                                <img src="assets/img/IMG_1128.jpg" alt="img">
                             </a>
                         
                             <a href="assets/img/IMG_1129.jpg">
-                                <img src="assets/img/IMG_1129.jpg" alt="">
+                                <img src="assets/img/IMG_1129.jpg" alt="img">
                             </a>
                             <a href="assets/img/IMG_1130.jpg">
-                                <img src="assets/img/IMG_1130.jpg" alt="">
+                                <img src="assets/img/IMG_1130.jpg" alt="img">
                             </a>
                         
                             <a href="assets/img/IMG_1132.jpg">
-                                <img src="assets/img/IMG_1132.jpg" alt="">
+                                <img src="assets/img/IMG_1132.jpg" alt="img">
                             </a>
                         
                             <a href="assets/img/IMG_1133.jpg">
-                                <img src="assets/img/IMG_1133.jpg" alt="">
+                                <img src="assets/img/IMG_1133.jpg" alt="img">
                             </a>
                         
                             <a href="assets/img/IMG_1134.jpg">
-                                <img src="assets/img/IMG_1134.jpg" alt="">
+                                <img src="assets/img/IMG_1134.jpg" alt="img">
                             </a>
                             <a href="assets/img/IMG_1139.jpg">
-                                <img src="assets/img/IMG_1139.jpg" alt="">
+                                <img src="assets/img/IMG_1139.jpg" alt="img">
                             </a>
                             <a href="assets/img/IMG_1141.jpg">
-                                <img src="assets/img/IMG_1141.jpg" alt="">
+                                <img src="assets/img/IMG_1141.jpg" alt="img">
                             </a>
                         
 
@@ -337,10 +144,14 @@
                 </div>
             </div>
          </div>
-     
+      
+    <!-- all js -->
+
+
+
    
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 
   <script>
     lightGallery(document.querySelector('.gallery'))
